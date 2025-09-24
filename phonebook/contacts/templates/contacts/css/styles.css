@@ -1,0 +1,23 @@
+/* базовые стили, аватар и т.д. */
+.avatar, .avatar-large {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  background:#4a90e2;
+  font-weight:600;
+}
+.avatar {
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  font-size:22px;
+}
+.avatar-large{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  font-size:48px;
+  margin: 0 auto;
+}
+.card .card-body a { text-decoration: none; }
